@@ -39,7 +39,7 @@ import {
         setLoading(true);
         try {
           const response = await axios.post(
-            "https://codeconverter-7z3j.onrender.com/convert",
+            "https://cc-wz81.onrender.com/convert",
             obj,
             {
               headers: {
@@ -66,7 +66,7 @@ import {
         setLoading(true);
         try {
           const response = await axios.post(
-            "https://codeconverter-7z3j.onrender.com/debug",
+            "https://cc-wz81.onrender.com/debug",
             obj,
             {
               headers: {
@@ -93,7 +93,7 @@ import {
         setLoading(true);
         try {
           const response = await axios.post(
-            "https://codeconverter-7z3j.onrender.com/qualitycheck",
+            "https://cc-wz81.onrender.com/qualitycheck",
             obj,
             {
               headers: {
@@ -115,7 +115,7 @@ import {
       const { repositoryName, repositoryOwner, filePath } = parseGithubLink(link);
       setLoading(true)
       try {
-        const response = await axios.post("https://codeconverter-7z3j.onrender.com/github", {
+        const response = await axios.post("https://cc-wz81.onrender.com/github", {
           repositoryName,
           repositoryOwner,
           filePath,
@@ -134,7 +134,7 @@ import {
           direction={{ base: "column", md: "column", lg: "row" }}
           justifyContent={"space-around"}
           alignItems={"center"}
-          bg={"#682aa1"}
+          bg={"#ffdf00"}
           padding={"15px"}
         >
           <HStack>

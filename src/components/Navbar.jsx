@@ -7,7 +7,7 @@ const Navbar = () => {
     <Box bg={"#0c0c0c"}>
       <Container maxW={"8xl"}>
         <HStack>
-          <Image src={logo} width={"80px"} />
+          <Image src={logo} width={"60px"} />
           <Text fontWeight={"bold"} fontSize={"22px"} color={"orange.500"}>Code</Text>
           <Text fontWeight={"bold"} fontSize={"22px"} color={"blue.300"}>Converter</Text>
         </HStack>

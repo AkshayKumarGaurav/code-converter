@@ -1,13 +1,13 @@
 import React from "react";
-import { Triangle } from "react-loader-spinner";
+import { RotatingSquare } from "react-loader-spinner";
 
 const Loading = () => {
   return (
-    <Triangle
+    <RotatingSquare
       height="80"
       width="80"
       color="#4fa94d"
-      ariaLabel="triangle-loading"
+      ariaLabel="square-loading"
       wrapperStyle={{}}
       wrapperClassName=""
       visible={true}
