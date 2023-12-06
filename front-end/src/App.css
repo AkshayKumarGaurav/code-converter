@@ -1,0 +1,15 @@
+/* Scrollbar Track */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Scrollbar Thumb */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3c3e4a; /* Set the color of the thumb */
+  border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+/* Scrollbar Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Set the background of the track */
+}

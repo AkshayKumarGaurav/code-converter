@@ -1,0 +1,6 @@
+env:
+  - key: OPENAI_API_KEY
+    from_secret: openai-api-key
+env:
+  - key: GITHUB_ACCESS_TOKEN
+    from_secret: github-access-token
